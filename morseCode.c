@@ -118,10 +118,11 @@ int main () {
         printf("_.__");
     }else if ( word[i] == 'Z') {
         printf("__..");
-    }
+    }else if (" ") {
+            printf("\");
     
 }
-    
+    printf(" ");
 
 
 
