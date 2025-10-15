@@ -1,30 +1,3 @@
-/*Create a program that simulates a simple student grading system. The program should:
-
-Input:
-
-Take the number of students.
-For each student, input their name and 5 subject marks.
-Processing:
-
-Calculate the average marks of each student.
-Determine the grade for each student based on the following criteria:
-90-100: Grade A
-80-89: Grade B
-70-79: Grade C
-60-69: Grade D
-Below 60: Grade F
-Output:
-
-Display the name, average marks, and grade for each student.
-Display the overall class average and how many students fall into each grade category.
-Make sure to handle edge cases such as invalid input and ensure proper formatting for the output.
-
-Happy coding!
-
-
-
-*/
-
 #include <stdio.h>
 #include <string.h>
 
@@ -121,4 +94,5 @@ printf("F = %d\n",F);
 printf("**********************************\n");
 
     return 0;
+
 }
